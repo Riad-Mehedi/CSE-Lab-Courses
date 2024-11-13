@@ -20,9 +20,7 @@ function showForm(formId) {
 function toggleForm(formId) {
     const formContainer = document.getElementById("form-container");
 
-    // Show or hide the form container
     formContainer.style.display = formContainer.style.display === "none" ? "block" : "none";
 
-    // Set the active form to the one requested
     showForm(formId);
 }
